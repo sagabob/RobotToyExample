@@ -20,7 +20,7 @@ namespace RobotToy.Application
         {
             string input;
             var isRobotReceivedPlaceCommand = false;
-            Console.Write("Please enter commands...");
+            Console.WriteLine("Please enter commands...");
             do
             {
                 input = Console.ReadLine();

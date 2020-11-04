@@ -9,7 +9,7 @@ namespace RobotToySolution
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Start the robot simulator...Press 1 to choose input by file path");
+            Console.WriteLine("Start the robot simulator, press 1 to choose input by file path, other key for console..");
 
             var robot = new Robot(new TableDimensions());
             var robotSimulator = new RobotSimulator(new RobotCommandFactory(), robot);
