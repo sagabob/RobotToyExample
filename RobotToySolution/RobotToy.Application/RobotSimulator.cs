@@ -60,8 +60,7 @@ namespace RobotToy.Application
                         isRobotReceivedPlaceCommand = true;
                         command?.Execute();
                     }
-
-
+                    
                     Console.ReadKey();
                 }
             } while (!fileExists);
